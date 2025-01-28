@@ -10,18 +10,18 @@ public class Usuario {
 
     public Usuario() {}
 
-    public Usuario(BigInteger matricula, String nome, String email, String telefone) {
+    public Usuario(Integer matricula, String nome, String email, String telefone) {
         this.matricula = matricula;
         this.nome = nome;
         this.email = email;
     }
 
     // Getters e Setters
-    public BigInteger getMatricula() {
+    public Integer getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(BigInteger matricula) {
+    public void setMatricula(Integer matricula) {
         this.matricula = matricula;
     }
 
