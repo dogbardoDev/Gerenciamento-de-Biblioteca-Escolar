@@ -12,7 +12,7 @@ public class app extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(app.class.getResource("TelaCadastroUsuario.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        stage.setTitle("Cadastro De Usuario!");
         stage.setScene(scene);
         stage.show();
     }
